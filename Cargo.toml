@@ -1,0 +1,29 @@
+[workspace]
+
+members = [
+  "crates/*",
+]
+
+# Global package attributes
+[workspace.package]
+authors = ["Sofair Contributors <info@sofair.io>"]
+license = "MIT or Apache-2.0"
+documentation = "https://documents.sofair.io/[new_project_name]"
+homepage = "https://projects.sofair.io/[new_project_name]"
+repository = "https://github.com/SofairOfficial/[new_project_name]"
+edition = "2021"
+rust-version = "1.67"
+
+[profile.dev.package.backtrace]
+opt-level = 3
+
+[profile.release]
+lto = true
+codegen-units = 1
+incremental = false
+
+[profile.bench]
+lto = true
+codegen-units = 1
+incremental = false
+
