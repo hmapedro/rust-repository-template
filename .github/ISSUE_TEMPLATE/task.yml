@@ -37,4 +37,4 @@ body:
       label: References
       description: Provide a list of references that should be used to assure the correct execution of this task.
     validations:
-      required: false      
+      required: false
