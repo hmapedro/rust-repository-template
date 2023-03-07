@@ -23,7 +23,6 @@ body:
     attributes:
       label: Expected behaviour
       description: Describe the behaviour you were expecting
-      placeholder: A clear and concise description of what you expected to happen.
     validations:
       required: true
   - type: textarea
