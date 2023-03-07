@@ -2,15 +2,12 @@ name: Feature request
 description: Submit new feature request 
 title: "[FEAT]: "
 labels: ["feature"]
-assignees:
-  - hmapedro
 body:
   - type: textarea
     id: fr-context
     attributes:
       label: Feature request context & motivation
       description: Describe the context and motivation for the creation of this feature request
-      placeholder: A clear and concise description of the context and motivations for the creation this feature request. 
     validations:
       required: true
   - type: textarea
@@ -18,7 +15,6 @@ body:
     attributes:
       label: Feature resquest description
       description: Describe in detail your Feature Request
-      placeholder: A clear and concise description of the Feature Request.
     validations:
       required: true
   - type: textarea
@@ -26,7 +22,6 @@ body:
     attributes:
       label: Feature request alternatives
       description: Describe the alternatives you considered
-      placeholder: A clear and concise description of any alternative solutions or features you've considered.
     validations:
       required: false
   - type: textarea
