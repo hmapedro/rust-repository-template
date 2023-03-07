@@ -14,7 +14,7 @@ body:
     id: steps-reproduce
     attributes:
       label: Steps to reproduce
-      description: Describe steps to reproduce the behavior.
+      description: Describe steps to reproduce the behaviour.
       placeholder: 1. Go to '...'
     validations:
       required: true
