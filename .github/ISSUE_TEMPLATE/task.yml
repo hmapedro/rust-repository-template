@@ -7,7 +7,7 @@ body:
     id: task-aim
     attributes:
       label: Aim
-      description: Describe the aim and motivation for the creation of this task
+      description: Describe the aim and motivation for the creation of this task.
     validations:
       required: true
   - type: textarea
@@ -21,7 +21,7 @@ body:
     id: task-acceptancecriteria
     attributes:
       label: Acceptance criteria
-      description: Describe a list of acceptance criteria for this task
+      description: Describe a list of acceptance criteria for this task.
     validations:
       required: true
   - type: textarea
