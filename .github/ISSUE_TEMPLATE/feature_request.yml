@@ -13,8 +13,8 @@ body:
   - type: textarea
     id: fr-description
     attributes:
-      label: Feature resquest description
-      description: Describe in detail your Feature Request
+      label: Feature request description
+      description: Describe in detail your feature request
     validations:
       required: true
   - type: textarea
@@ -28,6 +28,6 @@ body:
     id: fr-additionalinfo
     attributes:
       label: Additional information
-      description: Provide additional information you considered relevant for this Feature Request
+      description: Provide additional information you considered relevant for this feature request
     validations:
       required: false
