@@ -1,7 +1,8 @@
 [workspace]
 
 members = [
-  "crates/*",
+  "crates/greeter_cli",
+  "crates/greeter_service"
 ]
 
 # Global package attributes
@@ -13,9 +14,6 @@ homepage = "https://projects.sofair.io/[new_project_name]"
 repository = "https://github.com/SofairOfficial/[new_project_name]"
 edition = "2021"
 rust-version = "1.67"
-
-[profile.dev.package.backtrace]
-opt-level = 3
 
 [profile.release]
 lto = true
